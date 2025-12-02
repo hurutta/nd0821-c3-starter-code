@@ -40,3 +40,10 @@ print(f"Precision: {precision}, Recall: {recall}, F1: {fbeta}")
 
 with open("../model/model.pkl", "wb") as f:
     pickle.dump(model, f)
+
+with open("../model/encoder.pkl", "wb") as f:
+    pickle.dump(encoder, f)
+
+with open("../model/lb.pkl", "wb") as f:
+    pickle.dump(lb, f)
+
